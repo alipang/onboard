@@ -58,6 +58,25 @@ new distributions are always welcome too.
 
         Next step is "Build and Install from Source"
 
+## Fedora Xfce:
+        # Install dependencies
+        sudo dnf install python3-distutils-extra dconf-devel intltool
+        sudo dnf install libcanberra-devel libxkbfile-devel libXtst-devel
+        sudo dnf install hunspell-devel python3-devel intltool gcc-c++ gcc
+        sudo dnf install 'pkgconfig(udev)' 'pkgconfig(libudev)'
+
+        Next step is "Build and Install from Source"
+
+
+## openSUSE Xfce:
+        # Install dependencies
+        sudo zypper install python3-distutils-extra dconf-devel intltool
+        sudo zypper install libcanberra-devel libxkbfile-devel libXtst-devel
+        sudo zypper install hunspell-devel python3-devel intltool gcc-c++ gcc
+        sudo zypper install 'pkgconfig(udev)' 'pkgconfig(libudev)'
+
+        Next step is "Build and Install from Source"
+
 ## Build and Install from Source
         git clone https://github.com/onboard-osk/onboard
         cd onboard
