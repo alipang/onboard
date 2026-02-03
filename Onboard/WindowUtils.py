@@ -1057,7 +1057,7 @@ def get_monitor_dimensions(window):
 
         dpi_x = size[0] * 25.4 / size_mm[0]
         dpi_y = size[1] * 25.4 / size_mm[1]
-        if dpi_x < 50 or dpi_x > 200 or dpi_y < 50 or dpi_y > 200:
+        if dpi_x < 50 or dpi_x > 350 or dpi_y < 50 or dpi_y > 350:
             size_mm = 0, 0
 
         return size, size_mm
