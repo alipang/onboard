@@ -3,15 +3,15 @@ DISTVERSION=	1.4.3.post9
 CATEGORIES=	x11 accessibility
 MASTER_SITES=	# set by USE_GITHUB
 
-MAINTAINER=	your@email.com
+MAINTAINER=	hans@alipang.se
 COMMENT=	On-screen keyboard for X11
-WWW=		https://github.com/dr-ni/onboard
+WWW=	https://github.com/alipang/onboard
 
 LICENSE=	GPLv3+
 LICENSE_FILE=	${WRKSRC}/COPYING.GPL3
 
 USE_GITHUB=	yes
-GH_ACCOUNT=	dr-ni
+GH_ACCOUNT=	alipang
 # GH_TAGNAME=	v${DISTVERSION}  # uncomment once upstream tags releases
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}distutils-extra>0:devel/py-distutils-extra@${PY_FLAVOR} \
