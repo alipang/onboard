@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/COPYING.GPL3
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	alipang
-# GH_TAGNAME=	v${DISTVERSION}  # uncomment once upstream tags releases
+GH_TAGNAME=	03d46576f908f368a0ce8c003e573dad9321105b
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}distutils-extra>0:devel/py-distutils-extra@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}packaging>0:devel/py-packaging@${PY_FLAVOR} \
