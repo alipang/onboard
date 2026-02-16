@@ -160,6 +160,7 @@ To build and install the FreeBSD port, follow these steps:
    sudo mkdir -p /usr/ports/x11/onboard
    sudo cp -R freebsd-port/* /usr/ports/x11/onboard/
    cd /usr/ports/x11/onboard
+   sudo make makesum
    sudo make install clean
    ```
 
