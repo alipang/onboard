@@ -88,6 +88,12 @@ new distributions are always welcome too.
 
         # Next step is "Build and Install from Source"
 
+### Notes
+
+- On FreeBSD, `python3` may not exist — only the versioned binary (e.g. `python3.11`). Since the `onboard` script uses `#!/usr/bin/env python3`, you may need to create a symlink:
+  ```sh
+  sudo ln -s /usr/local/bin/python3.11 /usr/local/bin/python3
+  ```
 
 ## Build and Install from Source
         git clone https://github.com/onboard-osk/onboard
@@ -167,10 +173,6 @@ To build and install the FreeBSD port, follow these steps:
    ```
 
 For more details on FreeBSD-specific patches and configuration, see [FREEBSD_PORTING.md](FREEBSD_PORTING.md).
-
-### Notes
-
-- python3 is often required to be called with the version number, e.g. `python3.11` instead of `python3`.
 
 
 ## Manuals
