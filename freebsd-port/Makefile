@@ -24,7 +24,6 @@ LIB_DEPENDS=	libhunspell-1.7.so:textproc/hunspell \
 		libudev.so:devel/libudev-devd
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dbus>0:devel/py-dbus@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}cairo>0:graphics/py-cairo@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}gobject3>0:devel/py-gobject3@${PY_FLAVOR} \
 		gsettings-desktop-schemas>0:devel/gsettings-desktop-schemas \
 		at-spi2-core>0:accessibility/at-spi2-core \
 		iso-codes>0:misc/iso-codes \
