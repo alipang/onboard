@@ -109,7 +109,6 @@ To build Debian packages from the source, two scripts are available:
 ### Notes
 - Both scripts automatically use `sudo` to install dependencies or packages.
 - Ensure you have `sudo` privileges and be ready to enter your password when prompted during execution.
-- python3 is sometimes required to be called with the version number, e.g. `python3.11` instead of `python3`.
 
 ---
 
@@ -165,6 +164,10 @@ To build and install the FreeBSD port, follow these steps:
    ```
 
 For more details on FreeBSD-specific patches and configuration, see [FREEBSD_PORTING.md](FREEBSD_PORTING.md).
+
+### Notes
+
+- python3 is often required to be called with the version number, e.g. `python3.11` instead of `python3`.
 
 
 ## Manuals
