@@ -106,19 +106,6 @@ To build Debian packages from the source, two scripts are available:
 - `build_debs.sh`: Creates the `.deb` packages and related metadata.
 - `apt_install_debs.sh`: Sets up a local repository and installs the packages on a target system.
 
-## Build and Install FreeBSD Port
-
-To build and install the FreeBSD port, follow these steps:
-
-   ```sh
-   sudo mkdir -p /usr/ports/x11/onboard
-   sudo cp -R freebsd-port/* /usr/ports/x11/onboard/
-   cd /usr/ports/x11/onboard
-   sudo make install clean
-   ```
-
-For more details on FreeBSD-specific patches and configuration, see [FREEBSD_PORTING.md](FREEBSD_PORTING.md).
-
 ### Notes
 - Both scripts automatically use `sudo` to install dependencies or packages.
 - Ensure you have `sudo` privileges and be ready to enter your password when prompted during execution.
@@ -164,6 +151,22 @@ The `apt_install_debs.sh` script simplifies installing the generated `.deb` pack
      ```bash
      /bin/sh ./apt_install_debs.sh "remove"
      ```
+
+
+## Build and Install FreeBSD Port
+
+To build and install the FreeBSD port, follow these steps:
+
+   ```sh
+   sudo mkdir -p /usr/ports/x11/onboard
+   sudo cp -R freebsd-port/* /usr/ports/x11/onboard/
+   cd /usr/ports/x11/onboard
+   sudo make install clean
+   ```
+
+For more details on FreeBSD-specific patches and configuration, see [FREEBSD_PORTING.md](FREEBSD_PORTING.md).
+
+
 ## Manuals
 
         # Terminal
