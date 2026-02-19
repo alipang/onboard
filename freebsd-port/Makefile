@@ -5,14 +5,14 @@ MASTER_SITES=	# set by USE_GITHUB
 
 MAINTAINER=	hans@alipang.se
 COMMENT=	On-screen keyboard for X11
-WWW=	https://github.com/alipang/onboard
+WWW=	https://github.com/onboard-osk/onboard
 
 LICENSE=	GPLv3+
 LICENSE_FILE=	${WRKSRC}/COPYING.GPL3
 
 USE_GITHUB=	yes
-GH_ACCOUNT=	alipang
-GH_TAGNAME=	03d46576f908f368a0ce8c003e573dad9321105b
+GH_ACCOUNT=	onboard-osk
+GH_TAGNAME=	f77f354535b7b6e4e2d2e51fc6dbc5ade5e0e28e
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}python-distutils-extra>0:devel/py-python-distutils-extra@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}packaging>0:devel/py-packaging@${PY_FLAVOR} \
