@@ -77,6 +77,10 @@ new distributions are always welcome too.
 
         Next step is "Build and Install from Source"
 
+## FreeBSD (not officially supported)
+        See `README.FreeBSD.md` for build instructions.
+
+
 ## Build and Install from Source
         git clone https://github.com/onboard-osk/onboard
         cd onboard
